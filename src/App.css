@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+    
+}
+.screen {
+  height: 667px;
+  width: 375px;
+  border: 3px solid black;
+  margin: auto;
+  margin-top: 10px;
+
+
+}
+.container {
+  height: 90%;
+  width: 100%;
+  padding: 5px;
+}
+.bottomBar {
+  height: 45px;
+  width: 100%;
+  position: relative;
+  bottom: -12px;
+  
+}
+.leftSide {
+  width: 75%;
+  height: 100%;
+  float: left;
+  padding: 5px;
+}
+.rightSide {
+  width: 15%;
+  height: 100%;
+  float: right;
+  margin-right: 15px;
+  padding: 5px;
+}
+.search {
+  height: 8%;
+  border: 3px solid black;
+}
+
+.content {
+  height: 88% ;
+  margin-top: 10px;
+  padding: 5px;
+}
+.targets {
+  height: 100%;
+  border: 3px solid black;
+}
+.targets_header {
+  height: 10%;
+  width: 100%;
+  border: 3px solid black;
+  margin-top: -3px;
+  position: relative;
+  right: 3px;
+  text-align: center;
+}
+.table {
+  width: 100%;
+  border: 1px solid black;
+  padding: 5px;
+}
+.module {
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  border: 3px solid black;
+  position: relative;
+  right: 10px;
+  bottom: 8px;
+}
+.menu {
+  width: 100%;
+  height: 100%; 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.menu_item {
+  width: 33%;
+  height: 85%;
+  border: 1px solid black;
+  border-top: 3px solid black;
+  text-align: center;
+  padding: 0;
+}
+th, tr, td {
+  border: 1px solid black;
+}
+h4 {
+  margin-top: 9px;
+}
